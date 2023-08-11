@@ -3,10 +3,13 @@
 
     /* banner start  */
 
-    .banner{
+       .banner{
         padding-top: 30px;
         margin-top: 209px;
+        background-position: top !important;
+        background-size: initial;
     }
+
 
     .banner-content h1 {
         font-size: 24px;
