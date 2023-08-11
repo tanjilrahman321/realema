@@ -132,8 +132,11 @@ body {
     padding: 50px 0;
     border-top: 2px solid #AB9665;
     background-image: linear-gradient(to right, #000000c5, #000000c5, #000000c5, #000000c5), url(../images/banner1.jpg);
-    background-repeat: no-repeat;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size:cover;
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     animation: slider 20s linear infinite;
